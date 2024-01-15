@@ -16,16 +16,13 @@ function Box() {
          <span className='flex items-center'><h1 className='font-bold text-2xl'>Notifications</h1><h1 className='ml-[12px] mt-[5px] text-white bg-blue-600 py-0 px-[10px] rounded-lg'>3</h1></span>
          <h3 className=' font-medium text-gray-400'>Mark all as read</h3>
          </div>
-         <div className='bg-gray-50 relative max-w-[1250px] rounded-lg p-5 mt-[25px] flex'>
+         <div className='bg-gray-50 p-5 mt-[25px] flex'>
             <img src={pic1} className='max-w-[100px] max-h-[50px]'/>
-            <div className='ml-[20px] text-wrap relative w-[800px]'>
-                <div className='sm:flex block items-center'>
-                <span className='font-bold text-nowrap'>Mark Webber</span>
-                <span className='ml-[10px] text-pretty  text-gray-500 font-semibold'>reacted to your recent post</span>
-                <br className='lg:hidden'/>
-                    <span className='sm:ml-[10px] ml-[0px] font-bold text-gray-500'>My first tournament today!</span>
-                    <div className='bg-red-500 sm:static absolute top-[33px] left-[205px] rounded-xl px-1 py-0 w-[8px] h-[8px] text-red-500 ml-[10px]'></div>
-                </div>
+            <div className='ml-[20px]'>
+                <span className='font-bold '>Mark Webber</span>
+                <span className='ml-[10px]  text-gray-500 font-semibold'>reacted to your recent <br className='flex sm:hidden'/> post</span>
+                    <span className='ml-[10px] font-bold text-gray-500'>My first tournament today!</span>
+                    <div className='bg-red-500 sm:absolute absolute md:top-[150px] lg:left-[850px] xl:left-[1230px] md:left-[680px] sm:top-[175px] sm:left-[300px] top-[190px] left-[355px] rounded-xl px-1 py-0 w-[8px] h-[8px] text-red-500 ml-[10px]'></div>
                 <p className='text-gray-400 font-medium'>5m ago</p>
             </div>
          </div>
